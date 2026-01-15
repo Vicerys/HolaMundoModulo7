@@ -1,0 +1,28 @@
+<Solution>
+  <Project Path="Alertas01/Alertas01.csproj" Id="605c98ae-1d3e-46b2-87fc-665ebb4dba11" />
+  <Project Path="EditText/EditText.csproj" Id="6e79b816-d469-4af0-9ebb-2bcd292838d3">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="HolaMundo.Controles01/HolaMundo.Controles01.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="holaMundo/holaMundo.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="HolaMundo2/HolaMundo2.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Imagen/Imagen.csproj" Id="17c91f40-a82e-4ea0-8eea-fba9a30fc8ca">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="IndicadorDeActividad/IndicadorDeActividad.csproj" Id="4aeae3d1-e41e-4091-bb6e-346e28799ebf">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="InicioDeSesion/InicioDeSesion.csproj" Id="6ebd1906-0a5a-4b83-88f1-1dbb07247094">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="RFC/RFC.csproj" Id="cea6af69-fa26-4c7a-9842-da95d5949622" />
+  <Project Path="Suma/Suma.csproj" Id="f9862e5c-cf04-4844-8d49-0eed1310765a">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>

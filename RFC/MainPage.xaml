@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RFC.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a submarine number ten" />
+            <Label Text="Ingrese su nombre"></Label>
+            <Entry 
+                x:Name="EntryNombre"
+                Placeholder="Nombre" />
+            <Label Text="Ingrese su Apellido paterno"></Label>
+            <Entry 
+                x:Name="EntryPrimerApellido"
+                Placeholder="Apellido Paterno" />
+            <Label Text="Ingrese su Apellido materno"></Label>
+            <Entry 
+                x:Name="EntrySegundoApellido"
+                Placeholder="Apellido Materno" />
+            <Label Text="Ingrese su fecha de nacimiento"></Label>
+            <DatePicker x:Name="DatePicker"/>
+
+            <Button
+                x:Name="RFCBtn"
+                Text="Click me"
+                Clicked="ButtonRFC_Clicked" />
+
+            <Label x:Name="LabelRFC" Text=""></Label>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
